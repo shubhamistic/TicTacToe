@@ -6,7 +6,6 @@
 
 <ol>
     <li>clone TicTacToe into your desired folder.</li>
-    <br>
     <code>https://github.com/shubhamistic/TicTacToe.git</code>
     <li>To look at the source code (written in Python) open <code>TicTacToe.py</code><li>
 
