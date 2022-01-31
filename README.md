@@ -6,9 +6,8 @@
 
 <ol>
     <li>clone TicTacToe into your desired folder.</li>
-    <br>
     <code>https://github.com/shubhamistic/TicTacToe.git</code>
-    <li>To look at the source code (written in Python) open <code>TicTacToe.py</code><li>
+    <li>To look at the source code (written in Python) open <code>TicTacToe.py</code></li>
     <li>To play the Game choose the executable file according to your OS</li>
     <ul> 
         <li>TicTacToe FOR WINDOWS</li>
