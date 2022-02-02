@@ -30,12 +30,11 @@
         <li>Do the exact same thing on line-133 , line-230 , line-420 .</li>
         <li>Save the code</li>
     </ol>
-    
+
 <h3>ADDING TABLES TO YOUR MYSQL DATABASE</h3>
 
 <p>You have to manually add tables in mysql database. The commands for adding tables in mysql are,</p>
-
-    <ul>
+    <ol>
         <li>Creating the roomlist table. Enter the following command in your MySQL shell,</li>
             <code>create table roomlist (room char(4) , status varchar(6) , time datetime);</code>
         <li>Now inserting a data in Mysql 'roomlist' table FOR example</li>
@@ -46,6 +45,4 @@
         <li>Now inserting a data in Mysql 'rooms' table FOR example</li>
             <code>insert into rooms values('1010' , 'X' , 'O' , '1' , 'X' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9');</code>
         <li>NOTE "Data in column 'joined' must be set to '1' so that no third player can join your room."</li>
-    </ul>
-
-
+    </ol>
