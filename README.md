@@ -38,7 +38,7 @@
     <ol>
         <li>Creating the roomlist table. Enter the following command in your MySQL shell,</li>
             <code>create table roomlist (room char(4) , status varchar(6) , time datetime);</code>
-        <li>Now inserting a data in Mysql 'roomlist' table FOR example<li>
+        <li>Now inserting a data in Mysql 'roomlist' table FOR example</li>
             <code>insert into roomlist values('1001','unused','2022-01-31 3:08:00');</code>
         <li>NOTE "Data in column 'status' must be set to 'unused' so that a player can join a room."</li>
         <li>creating the rooms table. Enter the following command in your MySQL shell,</li>
