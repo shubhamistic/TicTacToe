@@ -33,7 +33,7 @@
     
 <h3>ADDING TABLES TO YOUR MYSQL DATABASE</h3>
 
-<p>You have to manually add tables in mysql to commands for adding tables in mysql are as follow:</p>
+<p>You have to manually add tables in mysql database. The commands for adding tables in mysql are,</p>
 
     <ol>
         <li>Creating the roomlist table. Enter the following command in your MySQL shell,</li>
