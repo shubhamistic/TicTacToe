@@ -30,4 +30,22 @@
         <li>Do the exact same thing on line-133 , line-230 , line-420 .</li>
         <li>Save the code</li>
     </ol>
+    
+<h3>ADDING TABLES TO YOUR MYSQL DATABASE</h3>
+
+<p>You have to manually add tables in mysql to commands for adding tables in mysql are as follow:</p>
+
+    <ol>
+        <li>Creating the roomlist table. Enter the following command in your MySQL shell,</li>
+            <code>create table roomlist (room char(4) , status varchar(6) , time datetime);</code>
+        <li>Now inserting a data in Mysql 'roomlist' table FOR example<li>
+            <code>insert into roomlist values('1001','unused','2022-01-31 3:08:00');</code>
+        <li>NOTE "Data in column 'status' must be set to 'unused' so that a player can join a room."</li>
+        <li>creating the rooms table. Enter the following command in your MySQL shell,</li>
+            <code>create table rooms(roomid char(4) , owner char(1) , joiner char(1), joined char(1), turn char(1) , boxvalue1 char(1) , boxvalue2 char(1) , boxvalue3 char(1) , boxvalue4 char(1) , boxvalue5 char(1) , boxvalue6 char(1) , boxvalue7 char(1) , boxvalue8 char(1) , boxvalue9 char(1));</code>
+        <li>Now inserting a data in Mysql 'rooms' table FOR example</li>
+            <code>insert into rooms values('1010' , 'X' , 'O' , '1' , 'X' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9');</code>
+        <li>NOTE "Data in column 'joined' must be set to '1' so that no third player can join your room."</li>
+    </ol>
+
 
