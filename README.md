@@ -43,6 +43,6 @@
         <li>creating the rooms table. Enter the following command in your MySQL shell,</li>
             <code>create table rooms(roomid char(4) , owner char(1) , joiner char(1), joined char(1), turn char(1) , boxvalue1 char(1) , boxvalue2 char(1) , boxvalue3 char(1) , boxvalue4 char(1) , boxvalue5 char(1) , boxvalue6 char(1) , boxvalue7 char(1) , boxvalue8 char(1) , boxvalue9 char(1));</code>
         <li>Now inserting a data in Mysql 'rooms' table FOR example</li>
-            <code>insert into rooms values('1010' , 'X' , 'O' , '1' , 'X' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9');</code>
+            <code>insert into rooms values('1001' , 'X' , 'O' , '1' , 'X' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9');</code>
         <li>NOTE "Data in column 'joined' must be set to '1' so that no third player can join your room."</li>
     </ol>
