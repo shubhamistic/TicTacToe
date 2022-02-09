@@ -6,7 +6,7 @@
 
 <ol>
     <li>clone TicTacToe into your desired folder.</li>
-    <code>https://github.com/shubhamistic/TicTacToe.git</code>
+    <code>git clone https://github.com/shubhamistic/TicTacToe.git</code>
     <li>To look at the source code (written in Python) open <code>TicTacToe.py</code></li>
     <li>FIRST install mysql.connector module using <code>pip install mysql-connector-python</code> </li>
     <li>To play the Game choose the python file according to your OS</li>
