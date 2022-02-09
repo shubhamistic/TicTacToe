@@ -8,11 +8,12 @@
     <li>clone TicTacToe into your desired folder.</li>
     <code>https://github.com/shubhamistic/TicTacToe.git</code>
     <li>To look at the source code (written in Python) open <code>TicTacToe.py</code></li>
-    <li>To play the Game choose the executable file according to your OS</li>
+    <li>FIRST install mysql.connector module using <code>pip install mysql-connector-python</code> </li>
+    <li>To play the Game choose the python file according to your OS</li>
     <ul> 
-        <li>TicTacToe FOR WINDOWS</li>
-        <li>TicTacToe-m FOR MAC</li>
-        <li>TicTacToe-l FOR LINUX</li>
+        <li>TicTacToe.py FOR WINDOWS</li>
+        <li>TicTacToe-m.py FOR MAC</li>
+        <li>TicTacToe-l.py FOR LINUX</li>
     </ul>      
 </ol>
 
