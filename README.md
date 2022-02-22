@@ -5,6 +5,8 @@
 <h3>TRY NOW!!!</h3>
 <p>DOWNLOAD and RUN 'TicTacToe.exe' to try this game on our own servers.</p>
 
+<img src="images/tictactoe.jpg">
+
 <h2>INSTALLATION</h2>
 
 <ol>
