@@ -1,7 +1,7 @@
 <h1>TicTacToe README</h1>
 
-<p>A quick multiplayer TicTacToe game designed using (Python-MySQL) and can be triggered directly from the command line.
-!!!TRY NOW!!!! DOWNLOAD and RUN 'TicTacToe.exe' to try this game on our own servers.</p>
+<p>A quick multiplayer TicTacToe game designed using (Python-MySQL) and can be triggered directly from the command line.</p>
+<p>!!!TRY NOW!!!! DOWNLOAD and RUN 'TicTacToe.exe' to try this game on our own servers.</p>
 
 <h2>INSTALLATION</h2>
 
