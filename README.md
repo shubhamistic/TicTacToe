@@ -2,9 +2,6 @@
 
 <p>A quick multiplayer TicTacToe game designed using (Python-MySQL) and can be triggered directly from the command line.</p>
 
-<h3>TRY NOW!!!</h3>
-<p>DOWNLOAD and RUN 'TicTacToe.exe' to try this game on our own servers.</p>
-
 <img src="images/tictactoe.jpg">
 
 <h2>INSTALLATION</h2>
