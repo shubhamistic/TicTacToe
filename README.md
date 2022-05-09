@@ -10,7 +10,8 @@
     <li>clone TicTacToe into your desired folder.</li>
     <code>git clone https://github.com/shubhamistic/TicTacToe.git</code>
     <li>To look at the source code (written in Python) open <code>TicTacToe.py</code></li>
-    <li>INSTALL mysql.connector module using <code>pip install mysql-connector-python</code> </li>      
+    <li>INSTALL mysql.connector module using <code>pip install mysql-connector-python</code> </li>  
+    <li>RUN/PLAY the game using <code>python3 TicTacToe.py<code> command.</li>
 </ol>
 
 <h2>SETTING UP YOUR PERSONAL MySQL DATABASE</h2>
@@ -24,7 +25,7 @@
         <li>Go to line-422 it will look something like - </li>
         <code>database=mycon.connect(host='shubhamistic.com',user='TicTacToe',password='tictactoe@123',database='TicTacToe')</code>
         <li>Enter your host,user,password,database details.</li>
-        <li>Do the exact same thing on line-74 line-134 , line-231.</li>
+        <li>Do the exact same thing on line-74 , line-134 , line-231.</li>
         <li>Save the code</li>
     </ol>
 
