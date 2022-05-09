@@ -10,13 +10,7 @@
     <li>clone TicTacToe into your desired folder.</li>
     <code>git clone https://github.com/shubhamistic/TicTacToe.git</code>
     <li>To look at the source code (written in Python) open <code>TicTacToe.py</code></li>
-    <li>FIRST install mysql.connector module using <code>pip install mysql-connector-python</code> </li>
-    <li>To play the Game choose the python file according to your OS</li>
-    <ul> 
-        <li>TicTacToe.py FOR WINDOWS</li>
-        <li>TicTacToe-m.py FOR MAC</li>
-        <li>TicTacToe-l.py FOR LINUX</li>
-    </ul>      
+    <li>INSTALL mysql.connector module using <code>pip install mysql-connector-python</code> </li>      
 </ol>
 
 <h2>SETTING UP YOUR PERSONAL MySQL DATABASE</h2>
@@ -27,10 +21,10 @@
 </p>
     <ol>
         <li>After choosing the file click open the file or you can use any editor of your choice if on command line.</li>
-        <li>Go to line-74 it will look something like - </li>
-        <code>database=mycon.connect(host='example.com',user='YourUser',password='YourPassword',database='YourDatabaseName')</code>
+        <li>Go to line-422 it will look something like - </li>
+        <code>database=mycon.connect(host='shubhamistic.com',user='TicTacToe',password='tictactoe@123',database='TicTacToe')</code>
         <li>Enter your host,user,password,database details.</li>
-        <li>Do the exact same thing on line-133 , line-230 , line-420 .</li>
+        <li>Do the exact same thing on line-74 line-134 , line-231.</li>
         <li>Save the code</li>
     </ol>
 
@@ -39,7 +33,7 @@
 <p>You have to manually add tables in mysql database. The commands for adding tables in mysql are,</p>
     <ol>
         <li>Creating the roomlist table. Enter the following command in your MySQL shell,</li>
-            <code>create table roomlist (room char(4) , status varchar(6) , time datetime);</code>
+            <code>create table roomlist (roomid char(4) , status varchar(6) , time datetime);</code>
         <li>Now inserting a data in Mysql 'roomlist' table FOR example</li>
             <code>insert into roomlist values('1001','unused','2022-01-31 3:08:00');</code>
         <li>NOTE "Data in column 'status' must be set to 'unused' so that a player can join a room."</li>
