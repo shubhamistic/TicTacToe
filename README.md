@@ -11,7 +11,7 @@
     <code>git clone https://github.com/shubhamistic/TicTacToe.git</code>
     <li>To look at the source code (written in Python) open <code>TicTacToe.py</code></li>
     <li>INSTALL mysql.connector module using <code>pip install mysql-connector-python</code> </li>  
-    <li>RUN/PLAY the game using <code>python3 TicTacToe.py<code> command.</li>
+    <li>RUN/PLAY the game using <code>python3 TicTacToe.py</code> command.</li>
 </ol>
 
 <h2>SETTING UP YOUR PERSONAL MySQL DATABASE</h2>
